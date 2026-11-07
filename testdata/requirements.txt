@@ -1,0 +1,20 @@
+numpy
+pandas
+scikit-learn
+joblib
+matplotlib
+seaborn
+librosa
+soundfile
+torch
+openai-whisper
+praat-parselmouth
+imbalanced-learn
+xgboost
+lightgbm
+shap
+
+# API server (optional — pip install -r api/requirements.txt)
+fastapi>=0.109.0
+uvicorn[standard]>=0.27.0
+python-multipart>=0.0.6

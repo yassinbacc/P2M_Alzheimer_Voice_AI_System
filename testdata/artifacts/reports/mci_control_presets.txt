@@ -1,0 +1,3 @@
+[balanced] weight=1.0 threshold=argmax  MCI rec=0.606  Control rec=0.522  macro_f1=0.682
+[mci_priority] weight=1.0 threshold=0.42  MCI rec=0.676  Control rec=0.461  macro_f1=0.676
+[control_priority] weight=1.0 threshold=argmax  MCI rec=0.606  Control rec=0.522  macro_f1=0.682

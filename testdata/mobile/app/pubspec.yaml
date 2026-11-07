@@ -1,0 +1,65 @@
+name: alzheimer_detection
+description: AI application for early detection of Alzheimer's disease predisposition using voice biomarkers and NLP.
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Core dependencies
+  cupertino_icons: ^1.0.2
+  provider: ^6.0.0
+  get: ^4.6.5
+
+  # Audio recording and processing
+  record: ^5.2.0
+  cross_file: ^0.3.4
+  audio_waveforms: ^1.0.4
+  path_provider: ^2.0.15
+  file_picker: ^8.0.0
+
+  # API and networking
+  dio: ^5.3.1
+  http: ^1.1.0
+
+  # Local storage
+  sqflite: ^2.3.0
+  shared_preferences: ^2.2.2
+
+  # UI components
+  flutter_svg: ^2.0.7
+  google_fonts: ^6.1.0
+  badges: ^3.1.0
+
+  # Date and time
+  intl: ^0.19.0
+
+  # Video player for demos
+  video_player: ^2.7.2
+
+  # State management
+  riverpod: ^2.4.0
+  riverpod_generator: ^2.3.7
+
+  # Logging
+  logger: ^2.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+  build_runner: ^2.4.6
+  riverpod_generator: ^2.3.7
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/

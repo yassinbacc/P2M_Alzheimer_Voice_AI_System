@@ -1,0 +1,11 @@
+{
+    "name": "Alzheimer Detection",
+    "short_name": "Alzheimer Detection",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#0175C2",
+    "theme_color": "#0175C2",
+    "description": "Voice biomarker screening",
+    "orientation": "portrait-primary",
+    "prefer_related_applications": false
+}

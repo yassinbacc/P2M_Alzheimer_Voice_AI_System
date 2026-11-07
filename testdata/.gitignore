@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Data (large — keep structure, ignore blobs)
+data/raw/
+data/cropped/
+data/verified/
+*.wav
+*.mp3
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Flutter / mobile
+mobile/app/.dart_tool/
+mobile/app/build/
+mobile/app/.flutter-plugins-dependencies
+
+# IDE
+.idea/
+*.iml
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Regenerated production artifacts (optional: commit pickle for demos)
+# artifacts/models/
+# artifacts/reports/
